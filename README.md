@@ -1,27 +1,43 @@
 # Random Password Generator and Checker
 
-This C++ program generates random passwords and checks their security based on predefined criteria. It can be used to create strong and secure passwords for various applications.
+Welcome to the Random Password Generator and Checker project! This C++ program is designed to generate strong and secure passwords while also verifying their security based on predefined criteria.
 
 ## Features
-- Generates random passwords of variable length.
-- Ensures passwords contain a mix of digits, uppercase letters, and lowercase letters.
-- Checks generated passwords for security based on predefined criteria.
-- Avoids patterns in generated passwords by shuffling characters.
+
+- **Password Generation**: Generate random passwords of variable length.
+- **Security Checking**: Ensure passwords contain a mix of digits, uppercase letters, and lowercase letters.
+- **Security Verification**: Check generated passwords for security, avoiding patterns to enhance security.
+- **User-friendly Interface**: Easy-to-use interface displaying generated passwords and their security status.
 
 ## Requirements
-- C++ compiler with support for C++11 or later.
+
+- C++ compiler with support for C++14 or later.
 - Standard C++ libraries.
 
 ## Usage
-1. Compile the source code using a C++ compiler.
-2. Run the compiled executable.
-3. The program will generate and test multiple random passwords, displaying the results.
+
+1. **Compilation**:
+   Compile the source code using a C++ compiler. You can use the following command:
+   ```
+   make
+   ```
+
+2. **Execution**:
+   Run the compiled executable:
+   ```
+   ./main
+   ```
+
+3. **Result**:
+   The program will generate and test multiple random passwords, displaying the results.
 
 ## How it Works
-- The program uses a random number generator to create passwords of random length between 10 and 16 characters.
-- Each password contains at least one digit, one uppercase letter, and one lowercase letter.
-- The generated passwords are checked for security, ensuring they do not contain repeated characters or predictable patterns.
+
+- The program utilizes a random number generator to create passwords of random length between 10 and 16 characters.
+- Each generated password contains at least one digit, one uppercase letter, and one lowercase letter to ensure security.
+- Passwords are checked for security, ensuring they do not contain repeated characters or predictable patterns.
 - Finally, the program displays the generated passwords and indicates whether they are secure.
 
 ## Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests to improve the code or add new features.
+
+Contributions to this project are welcome! Whether you want to improve the code, add new features, or suggest enhancements, feel free to open issues or submit pull requests.
