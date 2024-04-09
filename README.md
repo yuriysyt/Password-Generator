@@ -17,10 +17,17 @@ Welcome to the Random Password Generator and Checker project! This C++ program i
 ## Usage
 
 1. **Compilation**:
-   Compile the source code using a C++ compiler. You can use the following command:
-   ```
-   make
-   ```
+   You can compile the source code using a C++ compiler. You have two options:
+
+   - Using `g++` directly:
+     ```
+     g++ -std=c++14 -o main main.cpp src/PasswordGenerator.cpp
+     ```
+
+   - Using `make`:
+     ```
+     make
+     ```
 
 2. **Execution**:
    Run the compiled executable:
